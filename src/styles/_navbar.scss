@@ -1,0 +1,78 @@
+.NavBar {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        border-right: 1px solid var(--border-color);
+        .profile {
+            width: 100%;
+            margin-top: 20px;
+            border-bottom: 1px solid var(--border-color);
+            text-align: center;
+            padding: 1rem 0;
+            img {
+                width: 70%;
+                border-radius: 50%;
+                border: 6px solid var(--border-color);
+                margin-bottom: 1rem;
+            }
+        }
+        .nav-items {
+            width: 100%;
+            text-align: center;
+            .nav-item {
+                list-style: none;
+            }
+            li {
+                display: block;
+                a {
+                    font-weight: 500;
+                    display: block;
+                    padding: .45rem 0;
+                    position: relative;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    transition: All .4s ease-in-out;
+                    text-transform: uppercase;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 0%;
+                        height: 50%;
+                        z-index: 3;
+                        background-color: var(--primary-color);
+                        transition: All 0.4s cubic-bezier(.59, .14, .38, .98);
+                        opacity: 0.2;
+                    }
+                    &:hover::before {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                a:active {
+                    background-color: var(--primary-color);
+                    font-weight: bold;
+                    color: var(--white-color);
+                }
+            }
+        }
+    }
+    .footer {
+        border-top: 1px solid var(--border-color);
+        width: 100%;
+        p {
+            padding: 1rem 0;
+            font-size: 0.85rem;
+            display: block;
+            text-align: center;
+        }
+    }
+}
