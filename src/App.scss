@@ -1,6 +1,10 @@
 @import './styles/layout';
 @import './styles/navbar';
 @import './styles/typography';
+@import './styles/title';
+@import './styles/about';
+@import './styles/skill';
+@import './styles/services';
 :root {
     --primary-color: #007bff;
     --secondary-color: #6c757d;
@@ -20,7 +24,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--font-light-color);
     font-weight: 300;
 }
@@ -28,3 +32,7 @@
 body {
     background-color: var(--background-dark-color);
 }
+
+// span {
+//     color: var(--white-color);
+// }
