@@ -1,14 +1,15 @@
+@import './config';
 .App {
     .sidebar {
         width: 20%;
         height: 100vh;
-        background-color: var(--sidebar-dark-color);
+        background-color: $sidebar-dark-color;
         position: fixed;
     }
     .main-content {
         width: 80%;
         margin-left: 20%;
-        background-color: var(--background-dark-color);
+        background-color: $background-dark-color;
         min-height: 100vh;
         display: grid;
         position: relative;

@@ -2,8 +2,8 @@ import React from 'react';
 
 function Title({title, span}) {
   return (
-    <div className='Title'>
-    <h3>
+    <div>
+    <h3 className='Title'>
     {title}
         <span>{span}</span>
     </h3>
