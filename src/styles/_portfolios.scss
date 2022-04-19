@@ -1,0 +1,63 @@
+@import './config';
+.PortfolioPage {}
+
+.portfolis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    .portfolio {
+        .imgae-data {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                height: calc(100% - 30px);
+                width: calc(100% - 30px);
+                background-color: $primary-color;
+                transform-origin: left;
+                transform: scale(0);
+                transition: all .4s ease-in-out;
+                opacity: 0.8;
+            }
+            &:hover::before {
+                transform: scale(1);
+            }
+            img {
+                width: 20%;
+                height: 30vh;
+                object-fit: cover;
+            }
+            .hover-items {
+                list-style: none;
+                position: absolute;
+                top: 70px;
+                left: 50%;
+                background-color: $font-light-color;
+                padding: 1rem 2rem;
+                transform: translate(-50%, -50%);
+                visibility: hidden;
+            }
+            &:hover {
+                .hover-items {
+                    visibility: visible;
+                    top: 50%;
+                    transition: all .4s ease-in-out .2s;
+                }
+            }
+        }
+        h5 {
+            font-size: 1.7rem;
+            font-weight: 400;
+            color: $white-color;
+            transition: all .4s ease-in-out;
+            &:hover {
+                color: $primary-color;
+                cursor: pointer;
+            }
+        }
+    }
+}
