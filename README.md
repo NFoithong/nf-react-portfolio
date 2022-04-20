@@ -15,6 +15,7 @@ Sass helps keep large stylesheets well-organized and makes it easy to share desi
   - [Technologies](#technologies)
   - [Installation](#installation)
   - [Mockup](#mockup)
+  - [Deploy](#deploy)
   - [Questions](#questions)
   
 ## User Story
@@ -50,6 +51,34 @@ SO THAT I can assess whether they're a good candidate for an open position
 <div>
 <img width="960" alt="desktop-screenshot" src="https://user-images.githubusercontent.com/69065671/164156714-7c6bae35-31b5-402c-81ee-9a28756c8f99.png"></div>
   </div>
+  
+## Deploy
+
+https://nfoithong.github.io/nf-react-portfolio/
+
+```
+In terminal
+
+git remote -v
+```
+
+```
+    "homepage": "https://nfoithong.github.io/nf-react-portfolio/"
+```
+```
+npm i gh-pages
+```
+```
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        }
+```
+```
+npm run deploy
+```
+Then check on github on gh-pages branch
+
 
 ## Questions
 Please contact me at [Email](n.foithong1983@gmail.com) with any further questions or. <br> [Github link](https://github.com/NFoithong)
