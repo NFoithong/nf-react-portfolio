@@ -11,7 +11,7 @@ console.log(allCategories);
 
 function PortfoliosPage() {
 
-    const [categories, setCategories] = useState(allCategories);
+    // const [categories, setCategories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(portfolios);
 
     const filter = (category) => {
