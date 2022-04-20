@@ -59,7 +59,13 @@ body {
     background-color: $background-dark-color;
 }
 
-// span {
-//     color: $white-color;
-//     font-size: 2rem;
-// }
+span {
+    color: $white-color;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 411px) {
+    html {
+        font-size: 70%;
+    }
+}

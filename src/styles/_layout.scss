@@ -5,6 +5,24 @@
         height: 100vh;
         background-color: $sidebar-dark-color;
         position: fixed;
+        z-index: 11;
+        border-right: 1px solid $secondary-color;
+        transform-origin: left;
+        transition: all .4s ease-in-out;
+        @media screen and (max-width: 1000px) {
+            transform: translateX(-100%);
+            transition: all .4s ease-in-out;
+            width: 30%;
+        }
+        @media screen and (max-width: 411px) {
+            width: 50%;
+        }
+    }
+    .nav-Toggle {
+        @media screen and (max-width: 1000px) {
+            transform: translateX(0);
+            transition: all .4s ease-in-out;
+        }
     }
     .main-content {
         width: 80%;
@@ -14,7 +32,59 @@
         display: grid;
         position: relative;
         .content {
-            margin: 5rem 10rem;
+            margin: 5rem 15rem;
+            @media screen and (max-width: 1100px) {
+                margin: 2rem 10rem;
+            }
+            @media screen and (max-width: 1400px) {
+                margin: 3rem 10rem;
+            }
+            @media screen and (max-width: 1400px) {
+                margin: 3rem 10rem;
+            }
+            @media screen and (max-width: 710px) {
+                margin: 2rem 3rem;
+            }
+        }
+        @media screen and (max-width: 1000px) {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.nav-btn {
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 10%;
+    // background-color: $secondary-color;
+    width: 4rem;
+    height: 4rem;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    .line-1,
+    .line-2,
+    .line-3 {
+        height: .4rem;
+        width: 100%;
+        background-color: $primary-color;
+        pointer-events: none;
+        display: none;
+        border-radius: 20px;
+        &:not(:last-child) {
+            margin-bottom: .7rem;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        display: block;
+        .line-1,
+        .line-2,
+        .line-3 {
+            display: block;
         }
     }
 }

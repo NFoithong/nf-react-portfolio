@@ -18,16 +18,16 @@ function HomePage() {
             Recusandae perspiciatis eligendi consequuntur sed dolorum impedit porro voluptatibus, nam rerum totam earum dolor quas quo? Corporis voluptatibus in voluptates?</p>
           </header>
           <div className="icons">
-            <Link to={`https://www.facebook.com/natthaphon.foithong`} target="_blank" className="icon-holder">
+            <Link to='https://www.facebook.com/natthaphon.foithong' target="_blank" className="icon-holder">
                 <FontAwesomeIcon icon={faFacebook} className="icon" />
             </Link>
-            <Link to="https://www.linkedin.com/in/natthaphon-foithong-a5a70562/" className="icon-holder">
+            <Link to="https://www.linkedin.com/in/natthaphon-foithong-a5a70562/" target="_blank" className="icon-holder">
                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
             </Link>
-            <Link to="test" className="icon-holder" href="https://www.instagram.com/foithong_dsign/">
+            <Link to="https://www.instagram.com/foithong_dsign/" target="_blank" className="icon-holder" href="https://www.instagram.com/foithong_dsign/">
                 <FontAwesomeIcon icon={faInstagram} className="icon" />
             </Link>
-            <Link to="test" className="icon-holder" href="https://github.com/NFoithong">
+            <Link to="https://github.com/NFoithong" target="_blank" className="icon-holder" href="https://github.com/NFoithong">
                 <FontAwesomeIcon icon={faGithub} className="icon" />
             </Link>             
           </div>
