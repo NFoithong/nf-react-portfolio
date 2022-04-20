@@ -42,10 +42,10 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Mock-Up
 Mobile-screenshot <br>
-<img width="499" alt="mobile-screenshot" src="https://user-images.githubusercontent.com/69065671/164156683-fb230802-76ad-4c3b-b3fc-33cd472e08a6.png">
+<img width="199" alt="mobile-screenshot" src="https://user-images.githubusercontent.com/69065671/164156683-fb230802-76ad-4c3b-b3fc-33cd472e08a6.png">
 <br>
 Desktop-screenshot
-<img width="1259" alt="desktop-screenshot" src="https://user-images.githubusercontent.com/69065671/164156714-7c6bae35-31b5-402c-81ee-9a28756c8f99.png">
+<img width="450" alt="desktop-screenshot" src="https://user-images.githubusercontent.com/69065671/164156714-7c6bae35-31b5-402c-81ee-9a28756c8f99.png">
 
 ## Questions
 Please contact me at [Email](n.foithong1983@gmail.com) with any further questions or. <br> [Github link](https://github.com/NFoithong)
