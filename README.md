@@ -48,7 +48,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 </div>
 <h3>Desktop-screenshot</h3>
 <div>
-<img width="450" alt="desktop-screenshot" src="https://user-images.githubusercontent.com/69065671/164156714-7c6bae35-31b5-402c-81ee-9a28756c8f99.png"></div>
+<img width="960" alt="desktop-screenshot" src="https://user-images.githubusercontent.com/69065671/164156714-7c6bae35-31b5-402c-81ee-9a28756c8f99.png"></div>
   </div>
 
 ## Questions
