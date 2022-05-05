@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/nf-react-portfolio/static/css/main.52b0fa3f.css",
-    "main.js": "/nf-react-portfolio/static/js/main.277ac298.js",
+    "main.js": "/nf-react-portfolio/static/js/main.69f9bc9f.js",
     "static/media/runbuddy.png": "/nf-react-portfolio/static/media/runbuddy.c34646b64cbe46b59883.png",
     "static/media/portfolio-01.png": "/nf-react-portfolio/static/media/portfolio-01.0b61480ba74fd3ae4581.png",
+    "static/media/Silver-Socials.png": "/nf-react-portfolio/static/media/Silver-Socials.b85f2a16b2d81b198026.png",
     "static/media/Fast-n-furious-project.png": "/nf-react-portfolio/static/media/Fast-n-furious-project.db8571bb722091332593.png",
     "static/media/WNS-group-project.png": "/nf-react-portfolio/static/media/WNS-group-project.49df308fd3874ebb1019.png",
     "static/media/Resume.pdf": "/nf-react-portfolio/static/media/Resume.fc6e7ec37cbd3a972482.pdf",
@@ -18,10 +19,10 @@
     "static/media/phone-solid.svg": "/nf-react-portfolio/static/media/phone-solid.d11a5673b368c47201f7dc8d86dc0719.svg",
     "static/media/location-dot-solid.svg": "/nf-react-portfolio/static/media/location-dot-solid.994928ef06a51d299a5aa0249b17719a.svg",
     "main.52b0fa3f.css.map": "/nf-react-portfolio/static/css/main.52b0fa3f.css.map",
-    "main.277ac298.js.map": "/nf-react-portfolio/static/js/main.277ac298.js.map"
+    "main.69f9bc9f.js.map": "/nf-react-portfolio/static/js/main.69f9bc9f.js.map"
   },
   "entrypoints": [
     "static/css/main.52b0fa3f.css",
-    "static/js/main.277ac298.js"
+    "static/js/main.69f9bc9f.js"
   ]
 }
