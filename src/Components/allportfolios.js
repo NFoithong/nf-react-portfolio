@@ -6,10 +6,22 @@ import portfolio01 from '../img/portfolio-01.png';
 import drumkit from '../img/drumkit.png';
 import workdayscheduler from '../img/work-day-demo.png';
 import runbuddy from '../img/runbuddy.png';
+import SilverSocial from '../img/Silver-Socials.png';
 
 const portfolios = [
     {
         id: 1,
+        category: 'Web Development',
+        githubLink: 'https://github.com/NFoithong/silver-socials.git',
+        demoLink: 'https://silver-socials.herokuapp.com/',
+        icon1: 'GitHub',
+        icon2:  'Demo',
+        image: SilverSocial,
+        title: 'Silver Socials',
+        tools: 'MongoDB and Mongoose ODM, Express.js, React, Node.js (MERN stack), GraphQL and concurrent servers, JWT Authentication, Sass, Tailwind CSS, Figma, Stripe, React Material UI, HeroIcon, Faker'
+    },
+    {
+        id: 2,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/auto_mechanics_management_sys',
         demoLink: 'https://fast-n-furious.herokuapp.com/',
@@ -20,7 +32,7 @@ const portfolios = [
         tools: 'Node.js, Express.js, Handlebars, Bootstrap, Sequelize, Figma, Fullpage.js, bcrypt'
     },
     {
-        id: 2,
+        id: 3,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/https-github.com-wyork63-group-six-front-end-project.git',
         demoLink: 'https://wyork63.github.io/group-six-front-end-project/',
@@ -31,7 +43,7 @@ const portfolios = [
         tools: 'HTML, CSS, JavaScript, Bootstrap, Bulma bootstrap'
     },
     {
-        id: 3,
+        id: 4,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/Generate-password-application.git',
         demoLink: 'https://nfoithong.github.io/Generate-password-application/',
@@ -42,7 +54,7 @@ const portfolios = [
         tools: 'HTML, CSS, JavaScript'
     },
     {
-        id: 4,
+        id: 5,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/NF-Weather-Dashboard-V1.git',
         demoLink: 'https://nfoithong.github.io/NF-Weather-Dashboard-V1/',
@@ -53,7 +65,7 @@ const portfolios = [
         tools: 'HTML, CSS, JavaScript, Bootstrap, jQuery, Moment.js, Server-Side API'
     },
     {
-        id: 5,
+        id: 6,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/Natthaphon-portfolio.git',
         demoLink: 'https://nfoithong.github.io/Natthaphon-portfolio/',
@@ -64,7 +76,7 @@ const portfolios = [
         tools: 'HTML, CSS, Bootstrap'
     },
     {
-        id: 6,
+        id: 7,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/Drumkit-javascript-exercise.git',
         demoLink: 'https://nfoithong.github.io/Drumkit-javascript-exercise/',
@@ -75,7 +87,7 @@ const portfolios = [
         tools: 'HTML, CSS, JavaScript'
     },
     {
-        id: 7,
+        id: 8,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/work-day-schedule.git',
         demoLink: 'https://nfoithong.github.io/work-day-schedule/',
@@ -86,7 +98,7 @@ const portfolios = [
         tools: 'HTML, CSS, JavaScript, Bootstrap, jQuery, Moment.js'
     },
     {
-        id: 8,
+        id: 9,
         category: 'Web Development',
         githubLink: 'https://github.com/NFoithong/run-buddy.git',
         demoLink: 'https://nfoithong.github.io/run-buddy/',
